@@ -362,3 +362,49 @@ section.reviews .slider-dots li.slick-active button {
     width: 35px;
     transition: .3s;
 }
+
+/* work section */
+section.work {
+    background: var(--light);
+}
+
+section.work .card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+section.work .card-wrapper .card {
+    position: relative;
+    height: 250px;
+}
+
+section.work .card-wrapper .card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(61, 207, 211, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #555;
+    opacity: 0;
+    transition: all .4s ease;
+}
+
+section.work .card-wrapper .card:hover .overlay {
+    opacity: 1;
+}
+
+section.work .card-wrapper .card .overlay a {
+    text-decoration: none;
+    color: salmon;
+}
+
+section.work .card-wrapper .card img {
+    width: 100%;
+    height: 100%;
+}
