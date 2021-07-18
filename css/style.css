@@ -759,5 +759,24 @@ footer .copy {
         margin-bottom: 20px;
     }
 
+    .navbar {
+        display: block;
+    }
 
+    section.reviews .slider .slide p {
+        width: 100%;
+    }
+}
+
+@media(max-width: 450px) {
+    section.contact .input-wrap {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: .1rem;
+        margin-bottom: 1rem;
+    }
+
+    section.reviews .slider .slide {
+        padding: 0;
+    }
 }
