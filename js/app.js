@@ -1,24 +1,24 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $('.slider').slick({
-        arrows:false,
+        arrows: false,
         dots: true,
-        appendDots:'.slider-dots',
+        appendDots: '.slider-dots',
         dotsClass: 'dots'
     });
 
 
 
 
-    let hamberger = document.querySelector('.hamberger');
-    let times = document.querySelector('.times');
-    let mobileNAv = document.querySelector('.mobile-nav');
+    // var hamberger = document.querySelector('.hamberger');
+    // var times = document.querySelector('.times');
+    // var mobileNAv = document.querySelector('.mobile-nav');
 
-    hamberger.addEventListener('.click' , function(){
-        mobileNAv.classList.add('open');
+    // hamberger.addEventListener('.click' , function(){
+    //     mobileNAv.classList.add('open');
 
-    });
-    times.addEventListener('.click' , function(){
-        mobileNAv.classList.remove('open');
-    });
+    // });
+    // times.addEventListener('.click' , function(){
+    //     mobileNAv.classList.remove('open');
+    // });
 
 });
