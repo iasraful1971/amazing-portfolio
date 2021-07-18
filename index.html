@@ -21,15 +21,16 @@
                 <img src="./images/logo.svg" alt="">
             </div>
             <div>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Pages</a>
-                <a href="#">Blogs</a>
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#reviews">Pages</a>
+                <a href="#work">Work</a>
+                <a href="#blog">Blogs</a>
             </div>
         </div>
-        <div class="right">
-            <button  class="btn btn-primary">Contact</button>
+        <div class="right" >
+            <a href="#contact"><button  class="btn btn-primary">Contact</button></a>
         </div>
     </nav>
 
@@ -50,7 +51,7 @@
 </header>
 
 <!-- about me  -->
-<section class="about">
+<section class="about" id="about">
     <div class="container flex item-center ">
         <div class="left flex-1">
             <img src="./images/man-2.png" alt="">
@@ -74,7 +75,7 @@
 <!-- my service section -->
 
 
-<section class="services">
+<section class="services" id="services">
     <div class="container">
         <h1 class="section-heading"><span>My </span> Services</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
@@ -115,7 +116,7 @@
 
 <!-- freelancer -->
 
-<section class="freelancer">
+<section class="freelancer" id="reviews">
     <h1>I'm Available for Freelance</h1>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae magni et cumque.</p>
     <button class="btn btn-primary">Hire Me</button>
@@ -159,7 +160,7 @@
 
 <!-- work section  -->
 
-<section class="work">
+<section class="work" id="work">
     <div class="container">
         <h1 class="section-heading"><span>My</span> Work</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, velit quo?</p>
@@ -211,7 +212,116 @@
 </section>
 
 
+<!-- blog -->
 
+<section class="blog" id="blog">
+    <div class="container">
+        <h1 class="section-heading"><span>My</span> Blog</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, assumenda quis.</p>
+        <div class="card-wrapper">
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="./images/article-ph-1.png" alt="">
+                </div>
+                <div class="card-content">
+                    <a href="#"><h1>Lorem ipsum dolor sit amet.</h1></a>
+                    <span>May 12, 2021</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolores velit quisquam ut quod hic molestiae, aut error ab reprehenderit, expedita aspernatur illum aliquam, saepe cumque! Tempora rerum explicabo a dignissimos est necessitatibus velit dolorum doloribus temporibus nobis! Exercitationem numquam optio ad.</p>
+                    <a class="read" href="#">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="./images/article-ph-2.png" alt="">
+                </div>
+                <div class="card-content">
+                    <a href="#"><h1>Lorem ipsum dolor sit amet.</h1></a>
+                    <span>May 12, 2021</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolores velit quisquam ut quod hic molestiae, aut error ab reprehenderit, expedita aspernatur illum aliquam, saepe cumque! Tempora rerum explicabo a dignissimos est necessitatibus velit dolorum doloribus temporibus nobis! Exercitationem numquam optio ad.</p>
+                    <a class="read" href="#">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="./images/article-ph-3.png" alt="">
+                </div>
+                <div class="card-content">
+                    <a href="#"><h1>Lorem ipsum dolor sit amet.</h1></a>
+                    <span>May 12, 2021</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolores velit quisquam ut quod hic molestiae, aut error ab reprehenderit, expedita aspernatur illum aliquam, saepe cumque! Tempora rerum explicabo a dignissimos est necessitatibus velit dolorum doloribus temporibus nobis! Exercitationem numquam optio ad.</p>
+                    <a class ="read" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- contact  -->
+
+<section class="contact" id="contact">
+    <div class="container">
+        <h1 class="section-heading">Contact <span>Me</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, sint.</p>
+
+        <div class="card-wrapper">
+            <div class="card">
+                <img src="./images/phone.png" alt="">
+                <h1>Call Me On</h1>
+                <h6>+88 01548785</h6>
+                
+            </div>
+            <div class="card">
+                <img src="./images/phone.png" alt="">
+                <h1>Send Email</h1>
+                <h6>example@gmail.com</h6>
+
+            </div>
+            <div class="card">
+                <img src="./images/phone.png" alt="">
+                <h1>Address</h1>
+                <h6>Dhaka, BAngladesh</h6>
+
+            </div>
+        </div>
+
+
+<!-- form  -->
+
+<form action="#">
+    <div class="input-wrap">
+        <input type="text" placeholder="Your Name *">
+        <input type="email" placeholder="Your Email *">
+    </div>
+    <div class="input-wrap-2">
+        <input type="text" placeholder="Your Subject... *">
+        <textarea name="" placeholder="Your Message" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div class="btn-wrapper">
+        <button class='btn btn-primary'>Send Message</button>
+    </div>
+</form>
+    </div>
+</section>
+
+
+
+<!-- footer part  -->
+
+<footer>
+    <img class="footer-logo" src="./images/logo-2.svg" alt="">
+    <div class="footer-socials">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-pinterest-square"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-github-square"></i></a>
+    </div>
+    <div class="copy">
+        Copyright 2021 &copy; Md. Asraful. All Right Reserved.
+    </div>
+</footer>
 
 
 
