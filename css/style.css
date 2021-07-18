@@ -121,7 +121,19 @@ header {
 
 }
 
-header nav .left a {
+nav .fas {
+    color: #111;
+    background: #fff;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+}
+
+nav .fas:hover {
+    background: aqua;
+}
+
+header nav .nav-link {
     color: var(--pure);
     text-decoration: none;
     margin-right: 2rem;
@@ -129,7 +141,7 @@ header nav .left a {
     transition: all .3s ease;
 }
 
-header nav .left a:hover {
+header nav .nav-link:hover {
     color: var(--primary);
 }
 
